@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:9B59B6&height=200&section=header&text=Hi%20I'm%20Zuhair%20Shad!%20👋&fontSize=45&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cc2b5e,100:753a88&height=200&section=header&text=Hi%20I'm%20Zuhair%20Shad!%20👋&fontSize=45&fontColor=ffffff" />
 </p>
 
 <!-- ANIMATED INTRO -->
@@ -24,7 +24,7 @@
 
 ### 🛠 Tech Arsenal
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind,vite,js,ts,git,github,vercel,docker" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind,vite,js,git,github,vercel,docker" />
 </p>
 
 ---
@@ -32,7 +32,6 @@
 ### 🚀 Featured Projects
 | Project | Description | Tech |
 |--------|-------------|------|
-| **ShadowAI** | AI-powered digital doppelgänger that mimics user communication style. | React, Node.js, OpenAI |
 | **Company Portfolio** | Recently built portfolio site showcasing company services. | React, Tailwind, Framer Motion |
 
 > 🖼 *Tip:* Add screenshots or GIF previews of your projects here for max impact!
@@ -77,5 +76,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:9B59B6&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cc2b5e,100:753a88&height=120&section=footer"/>
 </p>
