@@ -48,10 +48,7 @@
 
 ---
 
-### 🏆 Achievements
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&margin-w=10&margin-h=10&no-bg=true&no-frame=true" />
-</p>
+
 
 ---
 
