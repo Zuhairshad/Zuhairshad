@@ -1,65 +1,76 @@
-<!-- Intro Section -->
-<h1 align="center">Hey there 👋, I'm Shad</h1>
-<h3 align="center">🚀 Web Developer | MERN Stack | SaaS Builder</h3>
-
+<!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> 
-  Passionate about turning ideas into scalable products. Currently building 
-  <strong>ShadowAI</strong> – an AI-powered digital doppelgänger 🤖.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:9B59B6&height=200&section=header&text=Hi%20I'm%20Shad!%20👋&fontSize=45&fontColor=ffffff" />
+</p>
+
+<!-- ANIMATED INTRO -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&pause=1000&color=36BCF7&center=true&vCenter=true&width=550&lines=Web+Developer+%7C+MERN+Stack;SaaS+Builder+%7C+AI+Explorer;Turning+Ideas+Into+Scalable+Products" alt="Typing Animation" />
 </p>
 
 ---
 
-<!-- Cool Typing Animation -->
+### 🧑‍💻 About Me
+- 🔭 Currently building **ShadowAI – an AI-powered digital doppelgänger 🤖**
+- 🌱 Learning **Next.js, AI integrations, scalable SaaS patterns**
+- 🎯 2025 Goal: Launch my first full SaaS product 🚀
+- 💬 Ask me about **MERN stack, Cloud Deployment, SaaS Development**
+- ⚡ Fun Fact: I debug faster with coffee ☕ + lofi beats 🎧
+
+---
+
+### 🛠 Tech Arsenal
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Web+Developer+%7C+MERN+Stack;SaaS+and+AI+Enthusiast;Lifelong+Learner+%26+Problem+Solver" alt="Typing SVG" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind,vite,js,ts,git,github,vercel" />
 </p>
 
 ---
 
-### 🛠 Tech Stack
+### 🚀 Featured Projects
+| Project | Description | Tech |
+|--------|-------------|------|
+| **ShadowAI** | AI-powered digital doppelgänger that mimics user communication style. | React, Node.js, OpenAI |
+| **SaaS Starter Kit** | Boilerplate for quickly launching SaaS apps. | MERN, Stripe, Clerk |
+
+> 🖼 *Pro tip:* Add screenshots or GIFs of your projects here for a visual impact!
+
+---
+
+### 📊 GitHub Analytics
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" height="150"/>
+  <img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=radical" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical" height="150"/>
 </p>
 
 ---
 
-### ⚡ Current Focus
-- 🔭 Working on: **ShadowAI – AI-powered digital doppelgänger**
-- 🌱 Learning: **Advanced React patterns, Next.js, & AI integrations**
-- 💬 Ask me about: **MERN stack development, SaaS apps, cloud deployments**
-- 📫 Reach me: [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN) | [Portfolio](https://your-portfolio.com)
-
----
-
-### 📊 GitHub Stats & Streak
+### 🏆 Achievements
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" alt="GitHub stats" height="165"/>
-  <img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=radical" alt="GitHub Streak" height="165"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&margin-w=10&margin-h=10&no-bg=true&no-frame=true" />
 </p>
 
 ---
 
-### 🎯 Fun GIF Section
+### 🎭 Coding Vibes
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding GIF" />
 </p>
 
 ---
 
-### 🏆 Trophies
+### 🔗 Connect with Me
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="trophies" />
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-36BCF7?style=for-the-badge&logo=firefox&logoColor=white"/></a>
 </p>
 
 ---
 
-### 🌱 Quote to Live By
 <p align="center">
-  <i>“Code is like humor. When you have to explain it, it’s bad.”</i> – Cory House
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:9B59B6&height=120&section=footer"/>
 </p>
