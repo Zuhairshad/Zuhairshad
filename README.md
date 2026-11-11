@@ -130,6 +130,14 @@ This is a snapshot of my [public GitHub contribution calendar](https://github.co
   <img src="./assets/contribution-trail.svg" alt="GitHub contribution intensity snapshot from November 2025 through November 2026: 1,270 contributions in the last year." width="100%" />
 </picture>
 
+The live version takes another path: an animated snake redraws from my contribution grid each day. The [workflow](https://github.com/Zuhairshad/Zuhairshad/blob/main/.github/workflows/contribution-snake.yml) generates both themes and publishes the SVGs from this profile repository.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zuhairshad/Zuhairshad/output/contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zuhairshad/Zuhairshad/output/contribution-snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/Zuhairshad/Zuhairshad/output/contribution-snake-light.svg" alt="Animated snake crossing Zuhair Shad's real GitHub contribution grid." width="100%" />
+</picture>
+
 <a id="connect"></a>
 ## Send a signal
 
