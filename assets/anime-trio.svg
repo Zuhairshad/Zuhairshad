@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Original SVG fan art of Naruto, Ichigo and Luffy, each drawn as vector paths">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d101b"/><stop offset="1" stop-color="#2c1d2d"/></linearGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efc3a9"/><stop offset=".6" stop-color="#cf9884"/><stop offset="1" stop-color="#a86e6b"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+  <style>
+    .name{font:bold 34px Georgia,serif;fill:#f8eee7}
+    .series{font:20px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px;fill:#cbb8bb}
+    .label{font:16px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px;fill:#ea7883}
+    .chakra,.moon,.horizon{animation:pulse 5s ease-in-out infinite}
+    .slash{animation:slash 4s ease-in-out infinite}
+    .hat{animation:hat 5.4s ease-in-out infinite;transform-origin:190px 95px}
+    @keyframes pulse{50%{opacity:.28;transform:scale(1.025)}}
+    @keyframes slash{0%,35%,100%{opacity:.35}48%,58%{opacity:1}}
+    @keyframes hat{50%{transform:rotate(1.5deg)}}
+    @media(prefers-reduced-motion:reduce){.chakra,.moon,.horizon,.slash,.hat{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="560" rx="10" fill="url(#bg)"/>
+
+<g>
+  <rect x="20" y="28" width="374" height="505" rx="9" fill="#171724" stroke="#5a3e4d" stroke-width="2"/>
+  <path d="M42 53H372 M42 508H372" stroke="#6f4353" opacity=".55"/>
+  <g transform="translate(20 32) scale(0.92)">
+<circle class="chakra" cx="190" cy="178" r="142" fill="none" stroke="#eea744" stroke-width="5" opacity=".5"/>
+<path d="M85 386Q58 326 85 275L127 258L251 258L293 282Q320 331 303 386Z" fill="#e67b32" stroke="#3e3542" stroke-width="5"/>
+<path d="M84 288Q112 276 126 266L154 341L142 386H86Z M252 264Q289 274 299 309L304 386H238L225 337Z" fill="#1c2738"/>
+<path d="M171 270L188 337L208 270" fill="#f5eee4" stroke="#fff5db" stroke-width="4"/>
+<path d="M184 331V386" stroke="#2c2733" stroke-width="7"/><path d="M103 302L114 370 M275 300L269 369" stroke="#f4a751" stroke-width="5"/>
+<path d="M165 236L161 282L189 301L216 282L212 235Z" fill="#c58b79" stroke="#694a55" stroke-width="3"/>
+<path d="M116 152Q101 148 110 180L128 185L132 159Z M259 150Q279 148 269 181L252 185L248 159Z" fill="#d5a18a" stroke="#704c51" stroke-width="3"/>
+<path d="M121 119Q156 92 214 99Q258 115 257 167L251 220Q232 260 189 269Q149 258 128 224L119 170Z" fill="url(#skin)" stroke="#72505b" stroke-width="4"/>
+<path d="M128 170Q149 156 174 168Q154 178 132 176Z M204 168Q227 154 250 168Q229 178 207 175Z" fill="#f8f7ef"/>
+<path d="M128 167Q150 153 175 166 M204 166Q227 153 251 166" fill="none" stroke="#302c3d" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="152" cy="171" rx="8" ry="10" fill="#3d91bb"/><ellipse cx="226" cy="171" rx="8" ry="10" fill="#3d91bb"/>
+<ellipse cx="152" cy="171" rx="4" ry="8" fill="#152d4b"/><ellipse cx="226" cy="171" rx="4" ry="8" fill="#152d4b"/>
+<path d="M135 147Q155 136 177 147 M204 146Q228 135 247 147" fill="none" stroke="#825646" stroke-width="4"/>
+<path d="M190 173L182 209L196 211" fill="none" stroke="#a77870" stroke-width="3"/>
+<path d="M167 239Q190 251 213 238" fill="none" stroke="#754d52" stroke-width="3" stroke-linecap="round"/>
+<path d="M128 202L162 208 M127 213L161 217 M130 224L160 225 M218 208L252 202 M219 217L253 213 M219 225L251 224" stroke="#8e6260" stroke-width="3" stroke-linecap="round"/>
+<path d="M111 151Q77 103 112 76L88 67L129 64L143 40L162 57L186 22L198 55L228 33L230 61L269 51L257 84L293 84L269 110L272 153L253 137L243 111Q209 128 189 115Q165 137 131 122L119 156Z" fill="#edc44a" stroke="#886a46" stroke-width="5"/>
+<path d="M108 109Q146 89 189 91Q229 89 268 110L264 139Q225 124 189 128Q148 126 115 141Z" fill="#26364f" stroke="#475671" stroke-width="3"/>
+<rect x="149" y="99" width="80" height="33" rx="6" fill="#c8d0d6" stroke="#667381" stroke-width="3"/>
+<path d="M188 107Q180 118 188 123Q200 126 202 116Q199 110 192 113L184 119" fill="none" stroke="#4c5561" stroke-width="3" stroke-linecap="round"/>
+<circle cx="158" cy="116" r="2" fill="#737d86"/><circle cx="220" cy="116" r="2" fill="#737d86"/>
+</g>
+  <text class="name" x="45" y="448">Naruto</text>
+  <text class="series" x="45" y="479">NARUTO</text>
+  <text class="label" x="45" y="513">01 / MOMENTUM</text>
+</g>
+<g>
+  <rect x="413" y="28" width="374" height="505" rx="9" fill="#171724" stroke="#5a3e4d" stroke-width="2"/>
+  <path d="M435 53H765 M435 508H765" stroke="#6f4353" opacity=".55"/>
+  <g transform="translate(413 32) scale(0.92)">
+<circle class="moon" cx="191" cy="178" r="142" fill="none" stroke="#e76273" stroke-width="5" opacity=".46"/>
+<path d="M67 389Q63 307 102 275L146 252L233 252L278 276Q323 307 310 389Z" fill="#090b13" stroke="#5b5e6c" stroke-width="5"/>
+<path d="M96 286L143 253L190 339L152 389H80Z M280 284L235 253L188 339L229 389H307Z" fill="#171722"/>
+<path d="M139 257L187 330L237 254L222 389H156Z" fill="#f1eee7"/>
+<path d="M169 313L188 343L205 314L207 389H167Z" fill="#090b13"/>
+<path d="M120 282L183 370 M261 282L194 370" stroke="#4c505e" stroke-width="4"/>
+<path d="M165 235L161 276L188 295L215 274L211 231Z" fill="#bd8174" stroke="#684b50" stroke-width="3"/>
+<path d="M120 156Q103 147 110 183L129 186L133 163Z M255 156Q273 151 268 184L248 189L246 164Z" fill="#c68f7b" stroke="#684b50" stroke-width="3"/>
+<path d="M124 115Q159 90 212 100Q253 114 255 162L246 221Q225 258 190 267Q151 257 132 219L119 167Z" fill="url(#skin)" stroke="#6e4c53" stroke-width="4"/>
+<path d="M198 105Q252 119 255 164L245 219Q226 252 195 265Q215 212 207 159Z" fill="#8b5d5c" opacity=".29"/>
+<path d="M131 170Q152 157 175 170Q153 181 133 177Z M203 170Q224 158 247 169Q225 181 205 177Z" fill="#f6f2ec"/>
+<path d="M131 168Q153 154 175 168 M203 168Q224 154 247 168" fill="none" stroke="#302d33" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="153" cy="173" rx="7" ry="9" fill="#755a42"/><ellipse cx="224" cy="173" rx="7" ry="9" fill="#755a42"/>
+<path d="M135 147Q153 139 175 150 M205 148Q227 138 246 148" fill="none" stroke="#884c36" stroke-width="5"/>
+<path d="M189 172L182 210L197 211" fill="none" stroke="#9b7069" stroke-width="3"/>
+<path d="M169 237Q188 240 208 235" fill="none" stroke="#604343" stroke-width="3" stroke-linecap="round"/>
+<path d="M116 162Q85 106 104 72L75 67L123 57L138 28L163 49L181 17L204 49L232 22L236 53L282 47L263 75L302 91L269 105L271 157L250 134L243 108Q213 132 186 116Q160 138 133 123L120 170Z" fill="#d76832" stroke="#7c4c3c" stroke-width="5"/>
+<path d="M110 116Q137 59 187 62Q167 99 135 143Z M181 53Q228 40 270 83Q239 93 211 128Q191 109 158 126Z" fill="#f18a3e"/>
+<path d="M112 99L70 91L108 116 M152 44L141 15L168 47 M230 45L258 19L243 60" fill="#ea813d" stroke="#8f5139" stroke-width="3"/>
+<path d="M317 383L344 310" stroke="#3e3940" stroke-width="24"/>
+<path d="M325 350L347 340" stroke="#d8d0c8" stroke-width="7"/>
+<path d="M340 326L358 35" stroke="#ea7884" stroke-width="16" filter="url(#glow)" opacity=".65"/>
+<path class="slash" d="M340 326L358 35" stroke="#fff0e4" stroke-width="5"/>
+</g>
+  <text class="name" x="438" y="448">Ichigo</text>
+  <text class="series" x="438" y="479">BLEACH</text>
+  <text class="label" x="438" y="513">02 / RESTRAINT</text>
+</g>
+<g>
+  <rect x="806" y="28" width="374" height="505" rx="9" fill="#171724" stroke="#5a3e4d" stroke-width="2"/>
+  <path d="M828 53H1158 M828 508H1158" stroke="#6f4353" opacity=".55"/>
+  <g transform="translate(806 32) scale(0.92)">
+<circle class="horizon" cx="190" cy="176" r="142" fill="none" stroke="#efbe72" stroke-width="5" opacity=".48"/>
+<path d="M70 392Q75 320 111 285L147 267L229 266L271 288Q305 323 311 392Z" fill="#d24b48" stroke="#71363e" stroke-width="5"/>
+<path d="M143 268L172 344L150 391H83L111 286Z M235 268L205 344L228 391H302L271 286Z" fill="#ee6256"/>
+<path d="M154 267L190 310L225 267L225 391H151Z" fill="url(#skin)"/>
+<path d="M171 331L209 368 M205 330L171 368" stroke="#ab6e67" stroke-width="5" opacity=".7"/>
+<path d="M166 235L162 280L190 300L218 280L214 235Z" fill="#be8176" stroke="#704a50" stroke-width="3"/>
+<path d="M122 155Q108 147 113 184L129 187L130 161Z M257 155Q275 148 268 186L251 189L249 162Z" fill="#cf9781" stroke="#704a50" stroke-width="3"/>
+<path d="M123 115Q155 91 217 103Q254 122 257 165L247 222Q226 256 190 267Q153 256 132 222L121 165Z" fill="url(#skin)" stroke="#704a50" stroke-width="4"/>
+<path d="M136 166Q152 158 171 167 M208 167Q228 158 243 167" fill="none" stroke="#302931" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="154" cy="171" rx="5" ry="8" fill="#191823"/><ellipse cx="226" cy="171" rx="5" ry="8" fill="#191823"/>
+<path d="M132 146Q151 138 172 147 M207 147Q228 138 246 146" fill="none" stroke="#312a32" stroke-width="4"/>
+<path d="M188 176L182 208L195 210" fill="none" stroke="#a3746d" stroke-width="3"/>
+<path d="M153 229Q190 257 227 229Q192 247 153 229Z" fill="#fff5e8" stroke="#70484a" stroke-width="3"/>
+<path d="M145 204L157 214" stroke="#a36562" stroke-width="3"/>
+<path d="M115 158Q100 106 138 79L169 66L221 77Q267 101 262 153L247 139L236 114Q218 136 197 122Q172 141 145 124L122 164Z" fill="#11131d" stroke="#4c4549" stroke-width="5"/>
+<path d="M104 107L81 119L110 129 M147 83L127 65L165 83 M232 79L263 61L250 98" fill="#151923"/>
+<g class="hat"><ellipse cx="190" cy="102" rx="169" ry="29" fill="#e4bb67" stroke="#8e6543" stroke-width="5"/>
+<path d="M97 99Q106 32 154 20Q209 4 257 27Q285 51 282 99Z" fill="#e9c775" stroke="#946a48" stroke-width="5"/>
+<path d="M101 82Q185 99 279 82L282 100Q185 120 97 100Z" fill="#c64745" stroke="#7e3f40" stroke-width="3"/>
+<path d="M78 103Q186 133 301 101" fill="none" stroke="#f7dca0" stroke-width="4" opacity=".65"/>
+</g>
+</g>
+  <text class="name" x="831" y="448">Luffy</text>
+  <text class="series" x="831" y="479">ONE PIECE</text>
+  <text class="label" x="831" y="513">03 / FREEDOM</text>
+</g>
+</svg>

@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="#featurekit">FeatureKit</a> &nbsp;•&nbsp;
-  <a href="#selected-work">Selected work</a> &nbsp;•&nbsp;
+  <a href="#anime-frames">Anime frames</a> &nbsp;•&nbsp;
   <a href="#the-stack">The stack</a> &nbsp;•&nbsp;
   <a href="#activity">Activity</a> &nbsp;•&nbsp;
   <a href="#connect">Connect</a>
@@ -45,11 +45,6 @@ feature install → in development
 
 Explore the [CLI source](https://github.com/Zuhairshad/Featuristic/blob/main/apps/cli/src/inspect.ts) and the [Import Center manifest](https://github.com/Zuhairshad/Featuristic/blob/main/features/import-center/feature.json).
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/interlude-anime-mobile.svg" />
-  <img src="./assets/interlude-anime.svg" alt="A second original anime character, built from SVG paths, introduces the work between frames: inspect, model, test, build." width="100%" />
-</picture>
-
 The current CLI output is deliberately less dramatic than the art. This is an excerpt from `feature inspect fixtures/next-supabase` in the FeatureKit repository:
 
 ```json
@@ -62,40 +57,41 @@ The current CLI output is deliberately less dramatic than the art. This is an ex
 
 The full result records evidence and unknowns for Next.js, React, TypeScript, and Supabase. An empty `errors` list says the inspection completed; it does **not** claim that installing a feature is safe yet. That distinction is the point of the tool.
 
-<a id="selected-work"></a>
-## Selected work / four different problems
+### The part after inspection
 
-### 01 — Make a huge room feel small
+The installation workflow I’m aiming for has four checkpoints. This is a design target, **not a claim that the installer already does it**:
 
-<a href="https://github.com/Zuhairshad/Interactive-Event-Seating-Map"><img src="./assets/work-seating.svg" alt="Open the Interactive Event Seating Map repository" width="100%" /></a>
+```text
+╭─ 01 / READ ─────────────────────╮
+│ routes · auth · data · style     │
+╰──────────────┬──────────────────╯
+               ↓
+╭─ 02 / PLAN ─────────────────────╮
+│ proposed files and reasons      │
+╰──────────────┬──────────────────╯
+               ↓
+╭─ 03 / WRITE ────────────────────╮
+│ follow the host's conventions   │
+╰──────────────┬──────────────────╯
+               ↓
+╭─ 04 / VERIFY ───────────────────╮
+│ test and report the unknowns    │
+╰─────────────────────────────────╯
+```
 
-**[Interactive Event Seating Map](https://github.com/Zuhairshad/Interactive-Event-Seating-Map)** is a React + SVG seat-booking project. I like the tension here: a venue is one large visual object, but rendering every seat at once can make interaction heavy. The repo documents a sector view that limits the active part of the map, along with a backend LRU cache for seat-status reads.
+That order matters. A CLI can write files quickly; deciding **which files belong in somebody else’s app** is the harder engineering problem. For a team invitation, for example, the screen is only one piece. The feature also needs an invitation state, a way to accept or reject, authorization at the boundary, and useful failure messages. FeatureKit is where I’m working through how to make those pieces fit the host project instead of arriving as a disconnected demo.
 
-**Open it for:** the rendering tradeoff, the seat-selection flow, and the explicit notes on what an in-memory demo would need before production persistence and concurrency safety.
+<a id="anime-frames"></a>
+## Anime frames / the pause before movement
 
-### 02 — Put the rules behind the pretty part
+Naruto, Ichigo, and Luffy are three characters I keep coming back to: persistence, restraint, and the instinct to move forward. I drew these as **native SVG fan art** for this README. The silhouettes, linework, and motion are vector paths, so the artwork stays sharp on a phone and the still frame is complete before animation starts.
 
-<a href="https://github.com/Zuhairshad/Giftpop"><img src="./assets/work-giftpop.svg" alt="Open the Giftpop repository" width="100%" /></a>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/anime-trio-mobile.svg" />
+  <img src="./assets/anime-trio.svg" alt="Original SVG fan art of Naruto Uzumaki, Ichigo Kurosaki, and Monkey D. Luffy in three animated character frames." width="100%" />
+</picture>
 
-**[Giftpop](https://github.com/Zuhairshad/Giftpop)** brings a visual gift builder together with a customer app, a staff app, an Express API, and shared contracts. The interesting part is what happens after someone makes a beautiful gift: pricing, payment timing, packing, shipping, and the allowed changes between order states.
-
-**Open it for:** the [integer-money quote calculation](https://github.com/Zuhairshad/Giftpop/blob/main/packages/contracts/src/pricing.ts) and the [order transition table](https://github.com/Zuhairshad/Giftpop/blob/main/packages/contracts/src/order-status.ts). Those rules are easier to reason about when they live in one place.
-
-### 03 — Treat publishing as a guarded action
-
-<a href="https://github.com/Zuhairshad/Repurpose-MVP"><img src="./assets/work-arcpost.svg" alt="Open the Arcpost repository" width="100%" /></a>
-
-**[Arcpost](https://github.com/Zuhairshad/Repurpose-MVP)** is a content-routing workspace for creators and social teams. The public repo contains the MVP product shell, workflow contracts, connection and token-vault boundaries, and scheduling/publishing scaffolding. The detail I’d point you to is its [publish-mode gate](https://github.com/Zuhairshad/Repurpose-MVP/blob/main/packages/config/src/publish-mode.ts): disabled, sandbox, and live are explicit states, with CI forced to disabled.
-
-**Open it for:** a workflow system that makes unsafe outbound actions difficult to trigger accidentally. Live provider publishing still needs the production checks listed in the repo.
-
-### 04 — Verification across roles
-
-<a href="https://github.com/Zuhairshad/EduChain-Credentials-Verification-System"><img src="./assets/work-educhain.svg" alt="Open the EduChain repository" width="100%" /></a>
-
-**[EduChain](https://github.com/Zuhairshad/EduChain-Credentials-Verification-System)** explores academic credentials as a full-stack verification problem. Its repository separates the issuing institution’s portal, a student-facing app, a verifier app, and Solidity contracts. That separation makes the question concrete: who can issue a credential, who can present it, and what exactly does a verifier check?
-
-**Open it for:** the multi-role product shape and the contract/application boundary.
+The same idea guides how I build interfaces: give the important thing room, let contrast carry the focus, and make motion mean something. In code, that usually means a smaller number of strong states and a clear next action.
 
 <a id="the-stack"></a>
 ## The stack / where I work
@@ -116,9 +112,9 @@ The through-line is the next decision a user makes. That is where an interface a
 ## A few working principles
 
 - **Read before writing.** FeatureKit’s inspector stops at “not determined” when it lacks proof.
-- **Make transitions explicit.** Giftpop’s order status table says which move is allowed and what information it needs.
-- **Keep sharp edges visible.** Arcpost’s publish modes distinguish local safety from a real outbound action.
-- **Let the interface explain the system.** The seat map makes a large venue navigable one sector at a time.
+- **Make transitions explicit.** A useful flow shows what can happen next, what changed, and what failed.
+- **Keep sharp edges visible.** Auth, writes, imports, and outbound actions deserve clear boundaries and reviewable behavior.
+- **Let the interface explain the system.** Empty, loading, error, and narrow-screen states are part of the feature.
 
 <a id="activity"></a>
 ## Commit trail / the work over time
