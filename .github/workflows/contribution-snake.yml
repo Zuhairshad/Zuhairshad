@@ -1,0 +1,36 @@
+name: Draw contribution trail
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/contribution-snake.yml
+  schedule:
+    - cron: '27 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate animated SVGs from GitHub contributions
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: Zuhairshad
+          outputs: |
+            dist/contribution-snake-dark.svg?color_snake=#F7D7C8&color_dots=#111522,#3D2637,#76364A,#B84A5F,#ED6271
+            dist/contribution-snake-light.svg?color_snake=#B6384B&color_dots=#F6F8FA,#F6DDE0,#ECA8AF,#D76E7B,#B6384B
+
+      - name: Publish generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

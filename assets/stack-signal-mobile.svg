@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="692" viewBox="0 0 720 692" role="img" aria-label="Zuhair's full-stack tool map: React, Next.js, TypeScript, Tailwind CSS, Node.js, Express, MongoDB, and Supabase">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111522"/><stop offset=".55" stop-color="#171522"/><stop offset="1" stop-color="#261b28"/></linearGradient>
+<style>
+.label{font:19px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px;fill:#e97780}
+.tool{font:25px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#f6ede7}
+.chip rect{fill:#202432;stroke:#60505b;stroke-width:1.5}
+.node{fill:#e97780}
+.trace{fill:none;stroke:#65505e;stroke-width:2}
+.pulse{fill:#ff7681;filter:drop-shadow(0 0 8px #ed6271);animation:travel 7.2s ease-in-out infinite}
+.chip{animation:wake 7.2s ease-in-out infinite}
+.chip-0{animation-delay:0.00s}.chip-1{animation-delay:0.34s}.chip-2{animation-delay:0.68s}.chip-3{animation-delay:1.02s}.chip-4{animation-delay:1.36s}.chip-5{animation-delay:1.70s}.chip-6{animation-delay:2.04s}.chip-7{animation-delay:2.38s}
+@keyframes wake{0%,12%,100%{opacity:1}29%,52%{opacity:.66}39%{opacity:1}}
+@keyframes travel{0%,8%{transform:translateX(0);opacity:.6}74%{transform:translateX(562px);opacity:1}90%,100%{transform:translateX(562px);opacity:.5}}
+@media(prefers-reduced-motion:reduce){.chip,.pulse{animation:none}}
+</style></defs>
+<rect width="720" height="692" rx="10" fill="url(#bg)"/>
+<rect x="1" y="1" width="718" height="690" rx="9" fill="none" stroke="#5d3847" stroke-width="2"/>
+<path d="M34 58H686" stroke="#5d3847"/>
+<text class="label" x="34" y="40">ZS / TOOL SIGNAL</text>
+<text class="label" x="34" y="95">01 / INTERFACE</text>
+<g class="chip chip-0"><rect x="34" y="126" width="305" height="58" rx="8"/><circle class="node" cx="60" cy="155.0" r="6"/><text class="tool" x="80" y="163">React</text></g>
+<g class="chip chip-1"><rect x="361" y="126" width="305" height="58" rx="8"/><circle class="node" cx="387" cy="155.0" r="6"/><text class="tool" x="407" y="163">Next.js</text></g>
+<g class="chip chip-2"><rect x="34" y="194" width="305" height="58" rx="8"/><circle class="node" cx="60" cy="223.0" r="6"/><text class="tool" x="80" y="231">TypeScript</text></g>
+<g class="chip chip-3"><rect x="361" y="194" width="305" height="58" rx="8"/><circle class="node" cx="387" cy="223.0" r="6"/><text class="tool" x="407" y="231">Tailwind CSS</text></g>
+<text class="label" x="34" y="287">02 / SERVER</text>
+<g class="chip chip-4"><rect x="34" y="318" width="305" height="58" rx="8"/><circle class="node" cx="60" cy="347.0" r="6"/><text class="tool" x="80" y="355">Node.js</text></g>
+<g class="chip chip-5"><rect x="361" y="318" width="305" height="58" rx="8"/><circle class="node" cx="387" cy="347.0" r="6"/><text class="tool" x="407" y="355">Express</text></g>
+<text class="label" x="34" y="479">03 / DATA</text>
+<g class="chip chip-8"><rect x="34" y="510" width="305" height="58" rx="8"/><circle class="node" cx="60" cy="539.0" r="6"/><text class="tool" x="80" y="547">MongoDB</text></g>
+<g class="chip chip-9"><rect x="361" y="510" width="305" height="58" rx="8"/><circle class="node" cx="387" cy="539.0" r="6"/><text class="tool" x="407" y="547">Supabase</text></g>
+<path class="trace" d="M34 647H686"/>
+<rect class="pulse" x="34" y="644" width="90" height="6" rx="3"/>
+</svg>

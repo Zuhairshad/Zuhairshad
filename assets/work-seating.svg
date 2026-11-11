@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="The seat map">
+<style>.glyph{animation:glow 4s ease-in-out infinite;transform-origin:765px 80px}.accent{animation:sweep 4s ease-in-out infinite}@keyframes glow{50%{opacity:.48;transform:scale(1.035)}}@keyframes sweep{50%{opacity:.42}}@media(prefers-reduced-motion:reduce){.glyph,.accent{animation:none}}</style>
+<rect width="900" height="160" rx="9" fill="#151923"/><rect x="1" y="1" width="898" height="158" rx="8" fill="none" stroke="#343b47" stroke-width="2"/>
+<path d="M36 29H864 M36 132H864" stroke="#343b47"/><path class="accent" d="M36 132H155" stroke="#d9534b" stroke-width="5"/>
+<text x="36" y="55" fill="#d9534b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" letter-spacing="2">01 / INTERACTION</text>
+<text x="36" y="108" fill="#f4f0e9" font-family="Georgia,serif" font-weight="700" font-size="49" letter-spacing="-2">The seat map</text>
+<g class="glyph"><g fill="none" stroke="#bd5a54" stroke-width="2"><circle cx="760" cy="80" r="52"/><circle cx="760" cy="80" r="30"/><path d="M700 80H820 M760 20V140"/></g><g fill="#d9534b"><circle cx="736" cy="56" r="7"/><circle cx="786" cy="70" r="7"/><circle cx="753" cy="101" r="7"/></g></g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-label="Next frame in progress: the crimson build-log closing frame">
+  <defs>
+    <linearGradient id="night"><stop stop-color="#111522"/><stop offset="1" stop-color="#271823"/></linearGradient>
+    <style>
+      .small{font:25px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:3px;fill:#e77b85}
+      .large{font:bold 62px Georgia,serif;fill:#f7eee7}
+      .scan{animation:scan 5.8s ease-in-out infinite}
+      @keyframes scan{0%,10%{transform:translateX(-130px);opacity:.2}55%,72%{transform:translateX(505px);opacity:1}100%{transform:translateX(505px);opacity:0}}
+      @media(prefers-reduced-motion:reduce){.scan{animation:none}}
+    </style>
+  </defs>
+  <rect width="720" height="300" rx="10" fill="url(#night)"/>
+  <rect x="1" y="1" width="718" height="298" rx="9" fill="none" stroke="#5d3847" stroke-width="2"/>
+  <path d="M34 44H686 M34 262H686" stroke="#5d3847" stroke-width="2"/>
+  <path d="M605 0L675 0 510 300 440 300Z" fill="#722b3b" opacity=".45"/>
+  <path d="M662 0L671 0 506 300 497 300Z" fill="#ed6271"/>
+  <text x="38" y="86" class="small">ZS / BUILD LOG 001</text>
+  <text x="38" y="161" class="large">Next frame</text>
+  <text x="38" y="232" class="large">in progress.</text>
+  <path d="M40 283H674" stroke="#654b57" stroke-width="3"/>
+  <rect class="scan" x="40" y="279" width="95" height="7" rx="3" fill="#ed6271"/>
+</svg>

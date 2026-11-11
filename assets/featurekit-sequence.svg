@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="FeatureKit inspect scans the fixture, reports Next.js, React, TypeScript and Supabase evidence, then stops with support not determined and no files changed">
+<defs><linearGradient id="field" x2="1" y2="1"><stop stop-color="#111522"/><stop offset="1" stop-color="#261825"/></linearGradient>
+<style>
+.label{font:20px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:2px;fill:#ed6271}
+.command{font:27px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#f5eee7}
+.muted{font:21px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#b7b0b7}
+.tech{font:23px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#f5eee7}
+.rule{fill:none;stroke:#4a3c49;stroke-width:2}
+.runner{animation:run 5.8s ease-in-out infinite}
+.tech text{animation:evidence 5.8s ease-in-out infinite}
+.tech text:nth-child(2){animation-delay:.24s}.tech text:nth-child(3){animation-delay:.48s}.tech text:nth-child(4){animation-delay:.72s}
+@keyframes run{0%,9%{transform:translateX(0);opacity:.65}70%{transform:translateX(1027px);opacity:1}90%,100%{transform:translateX(1027px);opacity:.45}}
+@keyframes evidence{0%,25%,100%{fill:#f5eee7}45%{fill:#ffb2a8}}
+@media(prefers-reduced-motion:reduce){.runner,.tech text{animation:none}}
+</style></defs>
+<rect width="1200" height="330" rx="11" fill="url(#field)"/>
+<rect x="1" y="1" width="1198" height="328" rx="10" fill="none" stroke="#5d3847" stroke-width="2"/>
+<path d="M0 60H1200" class="rule"/><circle cx="28" cy="30" r="6" fill="#ed6271"/><circle cx="48" cy="30" r="6" fill="#d59d7c"/><circle cx="68" cy="30" r="6" fill="#81a6a0"/>
+<text x="95" y="37" class="label" font-size="16">FEATUREKIT / ACTUAL CLI TODAY</text>
+
+<path d="M399 71V269 M798 71V269" class="rule"/>
+<text x="36" y="102" class="label">01  COMMAND</text>
+<text x="36" y="148" class="command">$ feature inspect</text>
+<text x="36" y="182" class="muted">fixtures/next-supabase</text>
+<text x="431" y="102" class="label">02  EVIDENCE FOUND</text>
+<g class="tech"><text x="431" y="150">Next.js  ✓</text><text x="625" y="150">React  ✓</text><text x="431" y="194">TypeScript  ✓</text><text x="625" y="194">Supabase  ✓</text></g>
+<text x="830" y="102" class="label">03  VERDICT</text>
+<text x="830" y="150" class="command">not-determined</text>
+<text x="830" y="194" class="muted">No target files changed.</text>
+<path d="M36 273H1164" class="rule"/><rect class="runner" x="36" y="268" width="100" height="7" rx="3" fill="#ed6271"/>
+
+<text x="36" y="313" class="muted" font-size="17">READ THE PROJECT BEFORE CHANGING IT</text>
+</svg>

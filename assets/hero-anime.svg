@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-label="Original anime-style vector character introducing Zuhair Shad, full-stack developer in Pakistan">
+<defs>
+ <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#080a13"/><stop offset=".55" stop-color="#171222"/><stop offset="1" stop-color="#3e2337"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#f79f88"/><stop offset=".6" stop-color="#d84b5a"/><stop offset="1" stop-color="#772d48"/></radialGradient>
+ <linearGradient id="skin" x2="1" y2="1"><stop stop-color="#f1c5ab"/><stop offset=".56" stop-color="#c89287"/><stop offset="1" stop-color="#8b5d68"/></linearGradient>
+ <linearGradient id="scarf" x2="1" y2="0"><stop stop-color="#ac3045"/><stop offset=".6" stop-color="#e0555a"/><stop offset="1" stop-color="#8d253d"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+ <clipPath id="frame"><rect width="1200" height="540" rx="12"/></clipPath>
+ <style>
+ .name{font-family:Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:-.075em;paint-order:stroke fill;stroke:#080a13;stroke-width:2}
+ .meta{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.13em}
+ .scarf{animation:scarf 4.8s ease-in-out infinite;transform-box:fill-box}
+ .spark{animation:spark 3.4s ease-in-out infinite}
+ .moonring{animation:ring 5s ease-in-out infinite}
+ .scan{animation:scan 7s linear infinite}
+ @keyframes scarf{50%{transform:rotate(2deg) translateX(7px)}}
+ @keyframes spark{50%{opacity:.3;transform:translateY(-9px)}}
+ @keyframes ring{50%{opacity:.5;transform:scale(1.025)}}
+ @keyframes scan{50%{opacity:.55}}
+ @media(prefers-reduced-motion:reduce){.scarf,.spark,.moonring,.scan{animation:none}}
+ </style>
+</defs>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="540" fill="url(#sky)"/>
+ <path d="M0 428 Q400 344 1200 414V540H0Z" fill="#0a0c16" opacity=".8"/>
+ <path d="M0 504 Q600 410 1200 477" fill="none" stroke="#bd4b5a" stroke-width="3" opacity=".37"/>
+ <circle cx="972" cy="238" r="205" fill="url(#moon)" opacity=".92"/>
+ <circle class="moonring" cx="972" cy="238" r="226" fill="none" stroke="#d65a66" stroke-width="3" opacity=".34" style="transform-origin:972px 238px"/>
+ <path d="M45 44H1155 M45 492H1155" stroke="#7b4651" opacity=".54" stroke-width="2"/>
+ <g opacity=".46" stroke="#e49a92" stroke-width="2"><path d="M920 51l-40 122 M1060 21l-48 166 M1147 173l-39 127 M790 260l-43 138"/></g>
+ <g transform="translate(752 -13) scale(1.09)">
+<!-- Coat tails and a red spectral echo remain visible before motion begins. -->
+<g opacity=".16" transform="translate(44 -18)" fill="none" stroke="#e25358" stroke-width="4">
+  <path d="M82 278 Q48 308 28 471 M278 284 Q322 330 342 489 M109 152 Q70 84 166 48 Q243 31 286 120"/>
+</g>
+<g id="character">
+  <!-- Wind-cut coat, shoulders, inner shirt, lapels, and waist. -->
+  <path d="M95 282 Q35 305 11 391 L-9 535 L119 516 L171 480 L271 525 L383 536 L336 378 Q318 311 270 287 L223 263 L139 263Z" fill="#080b13" stroke="#323b4d" stroke-width="5"/>
+  <path d="M15 397 Q47 320 97 288 L115 440 L68 517 L-9 535Z" fill="#151a29"/>
+  <path d="M274 286 Q324 301 343 385 L386 535 L316 517 L255 435Z" fill="#111625"/>
+  <path d="M124 273 L176 298 L222 268 L259 295 L216 480 L159 480Z" fill="#edf0e9"/>
+  <path d="M146 294 L178 320 L217 293 L205 438 L177 476 L158 430Z" fill="#171c2b"/>
+  <path d="M111 281 L81 314 L142 413 L175 475 L162 318Z" fill="#202738" stroke="#778297" stroke-width="3"/>
+  <path d="M253 279 L285 317 L218 420 L177 475 L210 314Z" fill="#1c2333" stroke="#778297" stroke-width="3"/>
+  <path d="M86 319 L135 405 M284 317 L231 404 M162 327 L176 477" fill="none" stroke="#526079" stroke-width="3"/>
+  <path d="M100 292 Q60 333 52 422 L84 512 M272 286 Q313 324 318 438 L280 510" fill="none" stroke="#384255" stroke-width="4"/>
+  <path d="M150 464 H240 M170 475 H226" stroke="#b93d48" stroke-width="7"/>
+  <circle cx="190" cy="472" r="11" fill="#c65152" stroke="#f6c4b2" stroke-width="3"/>
+  <!-- Neck, ear, sculpted face, jaw shadow. -->
+  <path d="M151 226 L147 274 L176 308 L220 275 L218 222Z" fill="#ad716c" stroke="#392e39" stroke-width="4"/>
+  <path d="M120 169 Q106 153 103 181 Q105 208 126 212 L138 205Z" fill="#bc8b82" stroke="#6b444d" stroke-width="3"/>
+  <path d="M250 169 Q269 152 270 180 Q265 204 246 211 L232 205Z" fill="#aa7771" stroke="#603d46" stroke-width="3"/>
+  <path d="M128 124 Q171 93 225 115 Q253 140 253 179 L245 217 Q236 252 207 270 L173 275 Q137 260 126 221 L119 173Z" fill="url(#skin)" stroke="#503b43" stroke-width="4"/>
+  <path d="M212 119 Q250 140 251 177 L243 215 Q234 247 208 266 L192 270 Q217 230 211 175Z" fill="#7c5360" opacity=".46"/>
+  <path d="M134 211 Q149 233 171 239 M213 242 Q229 234 242 216" fill="none" stroke="#d29b8c" stroke-width="3" opacity=".8"/>
+  <!-- Original anime eyes: angled lids, iris, brows, nose and mouth. -->
+  <path d="M137 177 Q160 162 180 177 Q164 189 139 183Z" fill="#f8eee3"/>
+  <path d="M196 178 Q216 162 237 175 Q224 187 197 184Z" fill="#f8eee3"/>
+  <path d="M138 175 Q159 161 181 175 M195 176 Q219 160 238 174" fill="none" stroke="#211925" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="163" cy="179" rx="8" ry="10" fill="#a64250"/><ellipse cx="217" cy="178" rx="8" ry="10" fill="#a64250"/>
+  <ellipse cx="163" cy="179" rx="4" ry="8" fill="#151521"/><ellipse cx="217" cy="178" rx="4" ry="8" fill="#151521"/>
+  <circle cx="160" cy="175" r="2" fill="#fff9ef"/><circle cx="214" cy="174" r="2" fill="#fff9ef"/>
+  <path d="M137 158 Q158 149 180 158 M199 158 Q220 149 239 155" fill="none" stroke="#27202b" stroke-width="5"/>
+  <path d="M190 180 L181 215 Q190 220 199 215" fill="none" stroke="#82585a" stroke-width="3"/>
+  <path d="M173 238 Q190 244 207 236" fill="none" stroke="#563d45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M161 247 Q188 260 216 247" fill="none" stroke="#c98b82" stroke-width="2" opacity=".7"/>
+  <!-- Dark swept hair, individual bangs, side locks, lit edge strands. -->
+  <path d="M115 182 Q89 112 119 79 L99 66 L139 67 Q169 33 215 47 L231 27 L235 51 Q285 70 269 139 L254 183 L247 154 L233 127 Q209 141 186 128 Q164 158 134 158 L124 194Z" fill="#0b0e19" stroke="#41475a" stroke-width="5"/>
+  <path d="M124 138 Q155 82 198 79 Q177 103 158 151 L129 182Z" fill="#151b29"/>
+  <path d="M169 76 Q214 49 256 86 Q229 104 208 140 Q191 125 169 146 Q188 105 169 76Z" fill="#141927"/>
+  <path d="M230 75 Q268 77 271 123 L253 180 L244 138Z" fill="#0c111c"/>
+  <path d="M108 110 L78 122 L106 134 M122 75 L101 56 L144 72 M211 51 L237 30 L230 76" fill="#101522" stroke="#3a4154" stroke-width="3"/>
+  <path d="M129 113 Q159 73 205 67 M191 78 Q218 65 242 81 M246 103 Q257 127 251 146" fill="none" stroke="#64718a" stroke-width="3" opacity=".68"/>
+  <path d="M118 161 Q111 194 124 219 M253 160 Q259 194 247 220" fill="none" stroke="#252d3c" stroke-width="8"/>
+  <!-- Crimson scarf: physical folded knot plus animated trailing silk. -->
+  <path d="M143 273 Q177 294 222 263 L248 281 Q216 321 169 315 L126 290Z" fill="#b93345" stroke="#f07870" stroke-width="4"/>
+  <path d="M156 292 Q193 305 229 275" fill="none" stroke="#f69380" stroke-width="4"/>
+  <g class="scarf" transform-origin="225px 280px">
+    <path d="M229 270 Q286 229 321 248 Q358 259 392 223 Q374 275 334 286 Q296 289 248 306Z" fill="url(#scarf)" stroke="#f3776d" stroke-width="4"/>
+    <path d="M255 287 Q320 278 373 247" fill="none" stroke="#ffc2a6" stroke-width="3" opacity=".78"/>
+  </g>
+  <!-- Hand and glowing cursor-line, an engineering cue rather than a weapon. -->
+  <path d="M266 429 Q300 402 327 423 L333 455 Q313 471 290 456Z" fill="#b5837d" stroke="#5b3c47" stroke-width="4"/>
+  <path d="M290 427 Q304 419 315 428 M295 439 Q309 434 322 440" fill="none" stroke="#e4aea0" stroke-width="2"/>
+  <path d="M320 443 L402 414" stroke="#e25358" stroke-width="10" filter="url(#glow)" opacity=".65"/>
+  <path d="M320 443 L402 414" stroke="#f5a09a" stroke-width="4"/>
+</g></g>
+ <g class="spark" fill="#ed6570" opacity=".9"><circle cx="895" cy="114" r="4"/><circle cx="1127" cy="286" r="3"/><circle cx="828" cy="369" r="5"/></g>
+ <path class="scan" d="M876 58L1140 465" stroke="#ed6570" stroke-width="5" opacity=".3"/>
+ <text x="67" y="82" class="meta" font-size="20" fill="#ed6570">ZS / BUILD LOG 001</text>
+ <text x="65" y="204" class="name" font-size="127" fill="#f8eee5">Zuhair</text><text x="65" y="322" class="name" font-size="127" fill="#f8eee5">Shad<tspan fill="#ed6570">.</tspan></text><text x="69" y="425" class="meta" font-size="22" fill="#ead2c9">INTERFACES THAT MOVE. SYSTEMS THAT HOLD.</text><text x="69" y="469" class="meta" font-size="19" fill="#e4c4c0">FULL-STACK DEVELOPER  /  PAKISTAN</text>
+ <path d="M45 492h112" stroke="#ed6570" stroke-width="5"/>
+</g></svg>

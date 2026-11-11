@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Build log continues: a crimson slash crosses the closing frame">
+  <defs>
+    <linearGradient id="night"><stop stop-color="#111522"/><stop offset="1" stop-color="#271823"/></linearGradient>
+    <linearGradient id="blade"><stop stop-color="#f2a4a5"/><stop offset=".5" stop-color="#eb5b69"/><stop offset="1" stop-color="#c63c4f"/></linearGradient>
+    <style>
+      .small{font:18px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:3px;fill:#e77b85}
+      .large{font:bold 46px Georgia,serif;fill:#f7eee7}
+      .scan{animation:scan 5.8s ease-in-out infinite}
+      .flare{animation:flare 5.8s ease-in-out infinite}
+      @keyframes scan{0%,10%{transform:translateX(-150px);opacity:.2}55%,72%{transform:translateX(920px);opacity:1}100%{transform:translateX(920px);opacity:0}}
+      @keyframes flare{0%,30%,100%{opacity:.5}53%,63%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.scan,.flare{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="170" rx="10" fill="url(#night)"/>
+  <rect x="1" y="1" width="1198" height="168" rx="9" fill="none" stroke="#5d3847" stroke-width="2"/>
+  <path d="M34 32H1166 M34 138H1166" stroke="#5d3847" stroke-width="2"/>
+  <path d="M930 0L1000 0 903 170 833 170Z" fill="#722b3b" opacity=".45"/>
+  <path class="flare" d="M1022 0L1030 0 933 170 925 170Z" fill="url(#blade)"/>
+  <text x="40" y="70" class="small">ZS / BUILD LOG</text>
+  <text x="40" y="119" class="large">Next frame in progress.</text>
+  <path d="M42 145H870" stroke="#654b57" stroke-width="3"/>
+  <rect class="scan" x="42" y="141" width="140" height="7" rx="3" fill="#ed6271"/>
+  <text x="1058" y="103" class="small">001 →</text>
+</svg>

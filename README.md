@@ -1,275 +1,147 @@
-<div align="center">
+<!-- Original, self-contained SVG character art. Motion is optional; the first frame is complete. -->
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/hero-anime-mobile.svg" />
+  <img src="./assets/hero-anime.svg" alt="Original anime-style vector character beside the name Zuhair Shad. Full-stack developer in Pakistan." width="100%" />
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Zuhair%20Ahmed&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer%20|%20AI%20Engineer%20|%20DSA%20Enthusiast&descAlignY=55&descAlign=50" width="100%"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+ML+Enthusiast+%F0%9F%A4%96;Problem+Solver+%F0%9F%92%A1;Always+Learning+%F0%9F%93%9A" alt="Typing SVG" />
-
-<br/>
-
-### 👨‍💻 Crafting Digital Solutions from Lahore, Pakistan
-
-<p>
-<a href="mailto:zuhairshad140@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/zuhair-ahmed1048/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/Zuhairshad"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://www.upwork.com/freelancers/~01882aa29721822db2"><img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/></a>
+<p align="center">
+  <a href="#featurekit">FeatureKit</a> &nbsp;•&nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp;•&nbsp;
+  <a href="#the-stack">The stack</a> &nbsp;•&nbsp;
+  <a href="#activity">Activity</a> &nbsp;•&nbsp;
+  <a href="#connect">Connect</a>
 </p>
 
-</div>
+## The short version
 
----
+I’m **Zuhair Shad**, a full-stack developer based in Pakistan. I build the screens people see and the systems they rely on after the first click: the API, the data model, the permissions, and the awkward states between “started” and “done.”
 
-## 🚀 About Me
+I’m drawn to products that have a strong point of view *and* a real workflow underneath. A polished surface gets someone to pause. Clear state, safe boundaries, and useful feedback get them to stay.
 
-```typescript
-const zuhair = {
-    location: "Lahore, Pakistan 🇵🇰",
-    role: "Full Stack Developer & AI Engineer",
-    focus: ["Web Development", "AI Automation", "Scalable Systems"],
-    currentlyWorking: [
-        "Building full-stack applications with MERN/PERN + TypeScript",
-        "Developing AI chatbots and intelligent automation pipelines",
-        "Creating SaaS platforms for real-world problems"
-    ],
-    learning: [
-        "Advanced TypeScript patterns",
-        "AI/ML model optimization & deployment",
-        "LLM integration & intelligent chatbot systems"
-    ],
-    askMeAbout: [
-        "MERN/PERN stack", "React Native", "TypeScript",
-        "AI automation", "Chatbots", "Python", "SQL"
-    ],
-    funFact: "Debugging is my second nature 🐛🔍"
-};
+<a id="featurekit"></a>
+## Currently building / FeatureKit
+
+**The idea:** add a meaningful feature to an existing app without treating that app like an empty starter template. [FeatureKit](https://github.com/Zuhairshad/Featuristic) is a CLI I’m developing around that idea. Its first supported-host target is a Next.js App Router project using React, TypeScript, and Supabase. The first feature under active design is a Data Import Center.
+
+**What works today:** a read-only `feature inspect` command and feature-manifest validation. The inspector looks for concrete evidence in package declarations, configuration, and bounded source files. It reports unknowns instead of turning a dependency name into a compatibility claim. I ran it against the repository’s Next.js + Supabase fixture for the sequence below.
+
+<a href="https://github.com/Zuhairshad/Featuristic"><picture>
+  <source media="(max-width: 600px)" srcset="./assets/featurekit-sequence-mobile.svg" />
+  <img src="./assets/featurekit-sequence.svg" alt="Animated sequence of the real FeatureKit inspect workflow: command, stack evidence, and a not-determined support assessment. The target is unchanged." width="100%" />
+</picture></a>
+
+**What comes next:** feature installation is still in development. The eventual installer has to earn the right to change a project: understand its stack, explain the proposed edits, and leave a clear way to review them. The visual above shows the **current inspector**, not a working install flow.
+
+```text
+existing app
+    │
+    ▼
+feature inspect
+    ├── evidence → report it
+    └── unknowns → stop guessing
+
+feature install → in development
 ```
 
----
+Explore the [CLI source](https://github.com/Zuhairshad/Featuristic/blob/main/apps/cli/src/inspect.ts) and the [Import Center manifest](https://github.com/Zuhairshad/Featuristic/blob/main/features/import-center/feature.json).
 
-## 💼 What I Do
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/interlude-anime-mobile.svg" />
+  <img src="./assets/interlude-anime.svg" alt="A second original anime character, built from SVG paths, introduces the work between frames: inspect, model, test, build." width="100%" />
+</picture>
 
-<table>
-<tr>
-<td width="50%">
+The current CLI output is deliberately less dramatic than the art. This is an excerpt from `feature inspect fixtures/next-supabase` in the FeatureKit repository:
 
-### 🌐 Full Stack Development
-Building scalable web applications using modern technologies like React, Node.js, Express, and MongoDB/PostgreSQL with TypeScript for type-safe code.
-
-</td>
-<td width="50%">
-
-### 🤖 AI & Automation
-Creating intelligent chatbots, automation tools, and AI-powered solutions using OpenAI APIs, Python, and machine learning libraries.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📱 Mobile Development
-Developing cross-platform mobile applications with React Native for seamless user experiences on iOS and Android.
-
-</td>
-<td width="50%">
-
-### 🎯 Problem Solving
-Passionate about DSA and solving complex problems with efficient, scalable solutions that make a real-world impact.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend Development
-<p>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
-
-### Backend Development
-<p>
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101"/>
-<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"/>
-<img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-</p>
-
-### Mobile Development
-<p>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
-</p>
-
-### AI/ML & Data Science
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-</p>
-
-### Tools & Technologies
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-<img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"/>
-</p>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Zuhairshad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1F222E&title_color=667eea&icon_color=764ba2&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Zuhairshad&theme=tokyonight&hide_border=true&background=1F222E&stroke=764ba2&ring=667eea&fire=667eea&currStreakLabel=764ba2" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zuhairshad&layout=compact&theme=tokyonight&hide_border=true&bg_color=1F222E&title_color=667eea&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zuhairshad&theme=tokyo-night&hide_border=true&bg_color=1F222E&color=667eea&line=764ba2&point=FFFFFF" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Zuhairshad&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" />
-</div>
-
----
-
-## 🎯 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Zuhairshad">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Zuhairshad&repo=your-repo-name&theme=tokyonight&hide_border=true&bg_color=1F222E&title_color=667eea&icon_color=764ba2" />
-</a>
-
-<a href="https://github.com/Zuhairshad">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Zuhairshad&repo=your-repo-name&theme=tokyonight&hide_border=true&bg_color=1F222E&title_color=667eea&icon_color=764ba2" />
-</a>
-
-</div>
-
----
-
-## 💡 Development Philosophy
-
-<div align="center">
-
-```javascript
-while (alive) {
-    eat();
-    sleep();
-    code();
-    repeat();
+```json
+{
+  "schemaVersion": "0.1",
+  "supportAssessment": "not-determined",
+  "errors": []
 }
 ```
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding"/>
+The full result records evidence and unknowns for Next.js, React, TypeScript, and Supabase. An empty `errors` list says the inspection completed; it does **not** claim that installing a feature is safe yet. That distinction is the point of the tool.
 
-</div>
+<a id="selected-work"></a>
+## Selected work / four different problems
 
----
+### 01 — Make a huge room feel small
 
-## 🤝 Let's Collaborate
+<a href="https://github.com/Zuhairshad/Interactive-Event-Seating-Map"><img src="./assets/work-seating.svg" alt="Open the Interactive Event Seating Map repository" width="100%" /></a>
 
-<div align="center">
+**[Interactive Event Seating Map](https://github.com/Zuhairshad/Interactive-Event-Seating-Map)** is a React + SVG seat-booking project. I like the tension here: a venue is one large visual object, but rendering every seat at once can make interaction heavy. The repo documents a sector view that limits the active part of the map, along with a backend LRU cache for seat-status reads.
 
-I'm always interested in collaborating on:
+**Open it for:** the rendering tradeoff, the seat-selection flow, and the explicit notes on what an in-memory demo would need before production persistence and concurrency safety.
 
-🌟 **Full-stack web applications** (MERN/PERN stack)  
-🤖 **AI-driven automation tools** and intelligent systems  
-📚 **Educational tech platforms** and productivity solutions  
-🚀 **Open-source projects** that make a difference  
+### 02 — Put the rules behind the pretty part
 
-<br/>
+<a href="https://github.com/Zuhairshad/Giftpop"><img src="./assets/work-giftpop.svg" alt="Open the Giftpop repository" width="100%" /></a>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>Let's connect and build something amazing together!</b></em>
+**[Giftpop](https://github.com/Zuhairshad/Giftpop)** brings a visual gift builder together with a customer app, a staff app, an Express API, and shared contracts. The interesting part is what happens after someone makes a beautiful gift: pricing, payment timing, packing, shipping, and the allowed changes between order states.
 
-</div>
+**Open it for:** the [integer-money quote calculation](https://github.com/Zuhairshad/Giftpop/blob/main/packages/contracts/src/pricing.ts) and the [order transition table](https://github.com/Zuhairshad/Giftpop/blob/main/packages/contracts/src/order-status.ts). Those rules are easier to reason about when they live in one place.
 
----
+### 03 — Treat publishing as a guarded action
 
-## 📈 Contribution Graph
+<a href="https://github.com/Zuhairshad/Repurpose-MVP"><img src="./assets/work-arcpost.svg" alt="Open the Arcpost repository" width="100%" /></a>
 
-<div align="center">
+**[Arcpost](https://github.com/Zuhairshad/Repurpose-MVP)** is a content-routing workspace for creators and social teams. The public repo contains the MVP product shell, workflow contracts, connection and token-vault boundaries, and scheduling/publishing scaffolding. The detail I’d point you to is its [publish-mode gate](https://github.com/Zuhairshad/Repurpose-MVP/blob/main/packages/config/src/publish-mode.ts): disabled, sandbox, and live are explicit states, with CI forced to disabled.
 
-[![Zuhair's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Zuhairshad&theme=tokyo-night&hide_border=true&bg_color=1F222E&color=667eea&line=764ba2&point=FFFFFF)](https://github.com/Zuhairshad)
+**Open it for:** a workflow system that makes unsafe outbound actions difficult to trigger accidentally. Live provider publishing still needs the production checks listed in the repo.
 
-</div>
+### 04 — Verification across roles
 
----
+<a href="https://github.com/Zuhairshad/EduChain-Credentials-Verification-System"><img src="./assets/work-educhain.svg" alt="Open the EduChain repository" width="100%" /></a>
 
-## 💭 Random Dev Quote
+**[EduChain](https://github.com/Zuhairshad/EduChain-Credentials-Verification-System)** explores academic credentials as a full-stack verification problem. Its repository separates the issuing institution’s portal, a student-facing app, a verifier app, and Solidity contracts. That separation makes the question concrete: who can issue a credential, who can present it, and what exactly does a verifier check?
 
-<div align="center">
+**Open it for:** the multi-role product shape and the contract/application boundary.
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<a id="the-stack"></a>
+## The stack / where I work
 
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/stack-signal-mobile.svg" />
+  <img src="./assets/stack-signal.svg" alt="Animated tool map showing React, Next.js, TypeScript, Tailwind CSS, Node.js, Express, MongoDB, and Supabase." width="100%" />
+</picture>
 
----
+**Interface:** React, Next.js, TypeScript, Tailwind CSS. I care about the feeling of a screen, but also its loading, empty, error, and narrow-width states.
 
-## 🎵 Coding Vibes
+**Server:** Node.js and Express. I like APIs with clear inputs, predictable errors, and behavior that can be tested without a browser.
 
-<div align="center">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=default&show_offline=false&background_color=1F222E&interchange=true&bar_color=667eea&bar_color_cover=false" alt="Spotify Now Playing" width="400"/>
-</div>
+**Data:** MongoDB and Supabase. I think about schemas, access boundaries, and what can go wrong when a workflow crosses more than one service.
 
----
+The through-line is the next decision a user makes. That is where an interface and its backend have to agree.
 
-## 🐍 Contribution Snake
+## A few working principles
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Zuhairshad/Zuhairshad/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
+- **Read before writing.** FeatureKit’s inspector stops at “not determined” when it lacks proof.
+- **Make transitions explicit.** Giftpop’s order status table says which move is allowed and what information it needs.
+- **Keep sharp edges visible.** Arcpost’s publish modes distinguish local safety from a real outbound action.
+- **Let the interface explain the system.** The seat map makes a large venue navigable one sector at a time.
 
----
+<a id="activity"></a>
+## Commit trail / the work over time
 
-<div align="center">
+This is a snapshot of my [public GitHub contribution calendar](https://github.com/Zuhairshad) on **11 November 2026**. The colors use GitHub's real activity levels, and the 1,270 total is the count GitHub reported that day. The live calendar on my profile stays current; the frame below keeps this build log's date visible.
 
-### 💬 Get in Touch
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/contribution-trail-mobile.svg" />
+  <img src="./assets/contribution-trail.svg" alt="GitHub contribution intensity snapshot from November 2025 through November 2026: 1,270 contributions in the last year." width="100%" />
+</picture>
 
-**📧 Email:** zuhairshad140@gmail.com  
-**💼 LinkedIn:** [Zuhair Ahmed](https://www.linkedin.com/in/zuhair-ahmed1048/)  
-**🔗 GitHub:** [Zuhairshad](https://github.com/Zuhairshad)  
-**💚 Upwork:** [Hire Me](https://www.upwork.com/freelancers/~01882aa29721822db2)
+<a id="connect"></a>
+## Send a signal
 
-<br/>
+If you’re building something that needs both a distinctive interface and careful engineering, I’d like to hear about it.
 
-### 📊 Profile Views
+<p align="center">
+  <a href="mailto:zuhairshad140@gmail.com">Email</a> &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/zuhair-ahmed1048/">LinkedIn</a> &nbsp;•&nbsp;
+  <a href="https://github.com/Zuhairshad?tab=repositories">All repositories</a>
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Zuhairshad&color=667eea&style=for-the-badge)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer" width="100%"/>
-
-**⭐ From [Zuhairshad](https://github.com/Zuhairshad) with 💜**
-
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/end-mark-mobile.svg" />
+  <img src="./assets/end-mark.svg" alt="Next frame in progress: the crimson build-log closing frame." width="100%" />
+</picture>
