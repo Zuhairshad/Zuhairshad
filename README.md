@@ -123,7 +123,7 @@ The through-line is the next decision a user makes. That is where an interface a
 <a id="activity"></a>
 ## Commit trail / the work over time
 
-This is a snapshot of my [public GitHub contribution calendar](https://github.com/Zuhairshad) on **11 November 2026**. The colors use GitHub's real activity levels, and the 1,270 total is the count GitHub reported that day. The live calendar on my profile stays current; the frame below keeps this build log's date visible.
+This is a snapshot of my [public GitHub contribution calendar](https://github.com/Zuhairshad) captured on **11 November 2026**, before this profile update went live. The colors use GitHub's real activity levels, and 1,270 is the total it showed at capture time. The live calendar on my profile keeps moving; this frame keeps its moment visible.
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/contribution-trail-mobile.svg" />
