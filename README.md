@@ -5,11 +5,11 @@
 </picture>
 
 <p align="center">
-  <a href="#featurekit">FeatureKit</a> &nbsp;•&nbsp;
-  <a href="#anime-frames">Anime frames</a> &nbsp;•&nbsp;
-  <a href="#the-stack">The stack</a> &nbsp;•&nbsp;
-  <a href="#activity">Activity</a> &nbsp;•&nbsp;
-  <a href="#connect">Connect</a>
+  <a href="#user-content-currently-building--featurekit">FeatureKit</a> &nbsp;•&nbsp;
+  <a href="#user-content-anime-frames--the-pause-before-movement">Anime frames</a> &nbsp;•&nbsp;
+  <a href="#user-content-the-stack--where-i-work">The stack</a> &nbsp;•&nbsp;
+  <a href="#user-content-commit-trail--the-work-over-time">Activity</a> &nbsp;•&nbsp;
+  <a href="#user-content-send-a-signal">Connect</a>
 </p>
 
 ## The short version
@@ -18,7 +18,6 @@ I’m **Zuhair Shad**, a full-stack developer based in Pakistan. I build the scr
 
 I’m drawn to products that have a strong point of view *and* a real workflow underneath. A polished surface gets someone to pause. Clear state, safe boundaries, and useful feedback get them to stay.
 
-<a id="featurekit"></a>
 ## Currently building / FeatureKit
 
 **The idea:** add a meaningful feature to an existing app without treating that app like an empty starter template. [FeatureKit](https://github.com/Zuhairshad/Featuristic) is a CLI I’m developing around that idea. Its first supported-host target is a Next.js App Router project using React, TypeScript, and Supabase. The first feature under active design is a Data Import Center.
@@ -81,7 +80,6 @@ The installation workflow I’m aiming for has four checkpoints. This is a desig
 
 That order matters. A CLI can write files quickly; deciding **which files belong in somebody else’s app** is the harder engineering problem. For a team invitation, for example, the screen is only one piece. The feature also needs an invitation state, a way to accept or reject, authorization at the boundary, and useful failure messages. FeatureKit is where I’m working through how to make those pieces fit the host project instead of arriving as a disconnected demo.
 
-<a id="anime-frames"></a>
 ## Anime frames / the pause before movement
 
 Naruto, Ichigo, and Luffy are three characters I keep coming back to: persistence, restraint, and the instinct to move forward. I drew these as **native SVG fan art** for this README. The silhouettes, linework, and motion are vector paths, so the artwork stays sharp on a phone and the still frame is complete before animation starts.
@@ -93,7 +91,6 @@ Naruto, Ichigo, and Luffy are three characters I keep coming back to: persistenc
 
 The same idea guides how I build interfaces: give the important thing room, let contrast carry the focus, and make motion mean something. In code, that usually means a smaller number of strong states and a clear next action.
 
-<a id="the-stack"></a>
 ## The stack / where I work
 
 <picture>
@@ -116,7 +113,6 @@ The through-line is the next decision a user makes. That is where an interface a
 - **Keep sharp edges visible.** Auth, writes, imports, and outbound actions deserve clear boundaries and reviewable behavior.
 - **Let the interface explain the system.** Empty, loading, error, and narrow-screen states are part of the feature.
 
-<a id="activity"></a>
 ## Commit trail / the work over time
 
 This is a snapshot of my [public GitHub contribution calendar](https://github.com/Zuhairshad) captured on **11 November 2026**, before this profile update went live. The colors use GitHub's real activity levels, and 1,270 is the total it showed at capture time. The live calendar on my profile keeps moving; this frame keeps its moment visible.
@@ -134,7 +130,6 @@ The live version takes another path: an animated snake redraws from my contribut
   <img src="https://raw.githubusercontent.com/Zuhairshad/Zuhairshad/output/contribution-snake-light.svg" alt="Animated snake crossing Zuhair Shad's real GitHub contribution grid." width="100%" />
 </picture>
 
-<a id="connect"></a>
 ## Send a signal
 
 If you’re building something that needs both a distinctive interface and careful engineering, I’d like to hear about it.
